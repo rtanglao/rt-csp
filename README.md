@@ -54,9 +54,12 @@ reallyaddthis.com-removed-mozilla.prod-csp-sanitized-report.csv
 ```
 * 19\. This (reallyaddthis.com.removed) removes another 300 lines from unicodesupport.mozilla.org-removed-mozilla.prod-csp-sanitized-report.csv
 * 20\. First line of [reallyaddthis.com-removed-mozilla.prod-csp-sanitized-report.csv-mozilla.prod-csp-sanitized-report.csv](https://github.com/rtanglao/rt-csp/blob/master/reallyaddthis.com-removed-mozilla.prod-csp-sanitized-report.csv): https://support.mozilla.org/t5/Mozilla-Support-English/ct-p/Mozilla-EN,,https://ff-input.mxpnl.net,,,,9
-* 21 Not sure if mxpnl.net is legitimate, need to ask FF Security and Lithium. Is it for Analytics? But let's remove it
+* 21\. Not sure if mxpnl.net is legitimate, need to ask FF Security and Lithium. Is it for Analytics? But let's remove it
 ```sh
 ggrep -Pv ",,[-0-9a-z\:\/\.]*mxpnl\.net[A-Z0-9a-z_=\/\&\?\-\%\.]*,,,," \
 reallyaddthis.com-removed-mozilla.prod-csp-sanitized-report.csv > \
 mxpnl.net-removed-mozilla.prod-csp-sanitized-report.csv
 ```
+* 22\. This (mxpnl.net) removed about 9 lines
+* 23\. First line of mxpnl.net-removed-mozilla.prod-csp-sanitized-report.csv is: https://support.mozilla.org/t5/Manage-preferences-and-add-ons/How-to-change-your-default-browser-in-Windows-10/ta-p/35222?utm_medium=firefox-browser&utm_source=firefox-browser,,https://m.addthisedge.com/live/boost/PoweredByLithium/_ate.track.config_resp,,,,7
+* 24\. Therefore really remove addthisedge
