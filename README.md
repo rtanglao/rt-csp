@@ -12,10 +12,12 @@ working on [case 00134461](https://supportcases.lithium.com/50061000009MCTs) whi
 grep -v "[0-9a-z]*.addthis.com[0-9a-z]*,,,," mozilla.prod-csp-sanitized-report.csv \
 > addthis.com-removed-mozilla.prod-csp-sanitized-report.csv
 ```
-* 4\. This removes 1100 lines from mozilla.prod-csp-sanitized-report.csv
+* 4\. This (addthis.com) removes 1100 lines from mozilla.prod-csp-sanitized-report.csv
 * 5\. First line of [addthis.com-removed-mozilla.prod-csp-sanitized-report.csv](https://github.com/rtanglao/rt-csp/blob/master/addthis.com-removed-mozilla.prod-csp-sanitized-report.csv): https://support.mozilla.org/t5/Mozilla-Support-English/ct-p/Mozilla-EN,,https://support.mozilla.org/t5/Mozilla-Support-English/ct-p/Mozilla-EN,,,,548
 * 6\. Remove all references to support.mozilla.org becaue of course we need them!
 ```sh
-grep -v "[0-9a-z]*.support.mozilla.org[0-9a-z/]*,,,," addthis.com-removed-mozilla.prod-csp-sanitized-report.csv \
-> support.mozilla.org-removed-mozilla.prod-csp-sanitized-report.csv
+grep -v "[0-9a-z\/:]*.support.mozilla.org[-A-Z0-9a-z\/]*,,,," \
+addthis.com-removed-mozilla.prod-csp-sanitized-report.csv > \
+support.mozilla.org-removed-mozilla.prod-csp-sanitized-report.csv
 ```
+* 7\. This (support.mozilla.org) removes 200 lines from mozilla.prod-csp-sanitized-report.csv
