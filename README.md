@@ -63,3 +63,8 @@ mxpnl.net-removed-mozilla.prod-csp-sanitized-report.csv
 * 22\. This (mxpnl.net) removed about 9 lines
 * 23\. First line of mxpnl.net-removed-mozilla.prod-csp-sanitized-report.csv is: https://support.mozilla.org/t5/Manage-preferences-and-add-ons/How-to-change-your-default-browser-in-Windows-10/ta-p/35222?utm_medium=firefox-browser&utm_source=firefox-browser,,https://m.addthisedge.com/live/boost/PoweredByLithium/_ate.track.config_resp,,,,7
 * 24\. Therefore really remove addthisedge
+```sh
+ggrep -Pv ",,[-0-9a-z\:\/\.]*addthisedge\.com[A-Z0-9a-z_=\/\&\?\-\%\.]*,,,," \
+mxpnl.net-removed-mozilla.prod-csp-sanitized-report.csv > \
+reallyaddthisedge.com-removed-mozilla.prod-csp-sanitized-report.csv
+```
