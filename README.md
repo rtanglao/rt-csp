@@ -28,3 +28,12 @@ grep -v "[0-9a-z\/:]*.youtube.com[-A-Z0-9a-z_=\/\&\?]*,,,," \
 support.mozilla.org-removed-mozilla.prod-csp-sanitized-report.csv > \
 youtube.com-removed-mozilla.prod-csp-sanitized-report.csv
 ```
+* 10\. This (youtube.com) removes 200 lines from support.mozilla.org-removed-mozilla.prod-csp-sanitized-report.csv
+* 11\. First line of [youtube.com-removed-mozilla.prod-csp-sanitized-report.csv](https://github.com/rtanglao/rt-csp/blob/master/youtube.com-removed-mozilla.prod-csp-sanitized-report.csv): https://support.mozilla.org/t5/Protect-your-privacy/Insecure-password-warning-in-Firefox/ta-p/27861,,https://m.addthisedge.com,,,,187
+* 12\. Therefore remove all references to addthisedge.com (it seems to be part of the Lithium nascar share button i.e. part of addthis.com)
+```sh
+grep -v "[0-9a-z\/:]*.addthisedge.com[-A-Z0-9a-z_=\/\&\?]*,,,," \
+youtube.com-removed-mozilla.prod-csp-sanitized-report.csv > \
+addthisedge.com-removed-mozilla.prod-csp-sanitized-report.csv
+```
+* 13\. This (addthisedge.com) removes 200 lines from youtube.com-removed-mozilla.prod-csp-sanitized-report.csv
