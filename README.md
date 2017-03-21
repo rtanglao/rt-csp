@@ -84,3 +84,4 @@ grep addthis -v \
 vpaid.js-removed-mozilla.prod-csp-sanitized-report.csv > 
 \really-really-addthis.com-removed-mozilla.prod-csp-sanitized-report.csv
 ```
+* 31.\ This (really really remove addthis.com) removes about 400 lines!
