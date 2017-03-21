@@ -46,7 +46,8 @@ unicodesupport.mozilla.org-removed-mozilla.prod-csp-sanitized-report.csv
 ```
 * 16\. This (unicodesupport.mozilla.org) removes 100 lines from addthisedge.com-removed-mozilla.prod-csp-sanitized-report.csv
 * 17\. First line of [unicodesupport.mozilla.org-removed-mozilla.prod-csp-sanitized-report.csv](https://github.com/rtanglao/rt-csp/blob/master/unicodesupport.mozilla.org-removed-mozilla.prod-csp-sanitized-report.csv): https://support.mozilla.org/t5/Install-and-Update/Update-Firefox-to-the-latest-version/ta-p/2858,,https://s7.addthis.com/static/sh.0d19417fd0a004d73df6a35b.html,,,,9
-* 18. Ooops didn't remove all addthis references earlier! Therefore do it!
+* 18\. Ooops didn't remove all addthis references earlier! Therefore do it!
 ```sh
 ggrep -Pv ",,[0-9a-z\:\/\.]*addthis\.com[A-Z0-9a-z_=\/\&\?\-\%\.]*,,,," unicodesupport.mozilla.org-removed-mozilla.prod-csp-sanitized-report.csv > reallyaddthis.com-removed-mozilla.prod-csp-sanitized-report.csv
-* 19. This (reallyaddthis.com.removed) removes another 300 lines from unicodesupport.mozilla.org-removed-mozilla.prod-csp-sanitized-report.csv
+```
+* 19\. This (reallyaddthis.com.removed) removes another 300 lines from unicodesupport.mozilla.org-removed-mozilla.prod-csp-sanitized-report.csv
