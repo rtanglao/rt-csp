@@ -72,7 +72,9 @@ reallyaddthisedge.com-removed-mozilla.prod-csp-sanitized-report.csv
 * 26\. First line of reallyaddthisedge.com-removed-mozilla.prod-csp-sanitized-report.csv: https://support.mozilla.org/t5/Learn-the-Basics-get-started/Como-remover-uma-p%C3%A1gina-marcada-como-favorita/ta-p/26929,script-src,https://ad.lkqd.net/vpaid/vpaid.js?fusion=1.0,https://sdk.streamrail.com/player/sr.ads.js,28,72,6
 * 27\. streamrail.com appears to be a streaming ad solution. Remove!
 ```sh
-grep -v vpaid.js reallyaddthisedge.com-removed-mozilla.prod-csp-sanitized-report.csv >vpaid.js-removed-mozilla.prod-csp-sanitized-report.csv
+grep -v vpaid.js \
+reallyaddthisedge.com-removed-mozilla.prod-csp-sanitized-report.csv >\
+vpaid.js-removed-mozilla.prod-csp-sanitized-report.csv
 ```
 * 28\. This (remove vpaid.js) removes about 150 lines
 
