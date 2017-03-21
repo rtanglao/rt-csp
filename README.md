@@ -68,5 +68,11 @@ ggrep -Pv ",,[-0-9a-z\:\/\.]*addthisedge\.com[A-Z0-9a-z_=\/\&\?\-\%\.]*,,,," \
 mxpnl.net-removed-mozilla.prod-csp-sanitized-report.csv > \
 reallyaddthisedge.com-removed-mozilla.prod-csp-sanitized-report.csv
 ```
-* 25\. This (really remve addthisedge.com) remove about 25 lines
+* 25\. This (really remove addthisedge.com) remove about 25 lines
 * 26\. First line of reallyaddthisedge.com-removed-mozilla.prod-csp-sanitized-report.csv: https://support.mozilla.org/t5/Learn-the-Basics-get-started/Como-remover-uma-p%C3%A1gina-marcada-como-favorita/ta-p/26929,script-src,https://ad.lkqd.net/vpaid/vpaid.js?fusion=1.0,https://sdk.streamrail.com/player/sr.ads.js,28,72,6
+* 27\. streamrail.com appears to be a streaming ad solution. Remove!
+```sh
+grep -v vpaid.js reallyaddthisedge.com-removed-mozilla.prod-csp-sanitized-report.csv >vpaid.js-removed-mozilla.prod-csp-sanitized-report.csv
+```
+* 28\. This (remove vpaid.js) removes about 150 lines
+
