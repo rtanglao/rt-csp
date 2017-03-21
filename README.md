@@ -93,4 +93,38 @@ really-really-addthis.com-removed-mozilla.prod-csp-sanitized-report.csv >\
 stickyadstv.com-removed-mozilla.prod-csp-sanitized-report.csv
 ```
 * 34\. This (stickyads) removes about 9 lines!
-
+* 35\. First line of stickyadstv.com-removed-mozilla.prod-csp-sanitized-report.csv: https://support.mozilla.org/t5/Protect-your-privacy/Insecure-password-warning-in-Firefox/ta-p/27861,,https://connectionstrenth.com,,,,5
+* 36\. Lists
+  * Good
+    * https://d2xvc2nqkduarq.cloudfront.net (amazon CDN)
+    * https://fonts.googleapis.com
+    * https://gateway.zscaler.net (cloud security?)
+    * https://cdncache-a.akamaihd.net (CDN?)
+    * addthis.com, addthisedge.com (Lithium share button)
+    * youtube.com
+    * lithium.com
+    * support.mozilla.org
+  * Potentially bad
+    * streamrail.com (ad network)
+    * mxpnl.net (analyics)
+    * vpaid.js (ad network)
+    * stickyads (ad network)
+    * https://connectionstrenth.com (ad network)
+    * http://cdncash.net/ (ad network)
+    * https://vast.yashi.com (ad network)
+    * http://match.adsrvr.org/ (ad network)
+    * https://partner-key.me (not sure what this is?!?)
+    * https://fonts.gstatic.com (google analytics? google tracking?)
+    * https://static.cmptch.com (malware?)
+    * https://vid.springserve.com (ad network)
+    * https://adnotbad.com (ad network)
+    * https://takethatad.com (ad network)
+    * https://awaybird.ru (ad network?)
+    * https://data1.itineraire.info (?)
+    * https://sdk.streamrail.com (ad network)
+    * https://t.lkqd.net (ad network?)
+    * https://x.rafomedia.com (ad network)
+    * http://vid-io.springserve.com, (ad network)
+    * https://ads.adaptv.advertising.com (ad network)
+    
+     
