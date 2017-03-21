@@ -37,3 +37,11 @@ youtube.com-removed-mozilla.prod-csp-sanitized-report.csv > \
 addthisedge.com-removed-mozilla.prod-csp-sanitized-report.csv
 ```
 * 13\. This (addthisedge.com) removes 200 lines from youtube.com-removed-mozilla.prod-csp-sanitized-report.csv
+* 14\. First line of [addthisedge.com-removed-mozilla.prod-csp-sanitized-report.csv](https://github.com/rtanglao/rt-csp/blob/master/addthisedge.com-removed-mozilla.prod-csp-sanitized-report.csv): https://support.mozilla.org/t5/%D0%A3%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%BA%D0%B0-%D0%B8-%D0%BE%D0%B1%D0%BD%D0%BE%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5/%D0%92%D0%B0%D0%B6%D0%BD%D0%BE-Firefox-%D0%B2%D1%81%D0%BA%D0%BE%D1%80%D0%B5-%D0%BF%D1%80%D0%B5%D0%BA%D1%80%D0%B0%D1%89%D0%B0%D0%B5%D1%82-%D0%BF%D0%BE%D0%B4%D0%B4%D0%B5%D1%80%D0%B6%D0%BA%D1%83-Windows-XP-%D0%B8-Vista/ta-p/31718,,https://support.mozilla.org/t5/%D0%A3%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%BA%D0%B0-%D0%B8-%D0%BE%D0%B1%D0%BD%D0%BE%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5/%D0%92%D0%B0%D0%B6%D0%BD%D0%BE-Firefox-%D0%B2%D1%81%D0%BA%D0%BE%D1%80%D0%B5-%D0%BF%D1%80%D0%B5%D0%BA%D1%80%D0%B0%D1%89%D0%B0%D0%B5%D1%82-%D0%BF%D0%BE%D0%B4%D0%B4%D0%B5%D1%80%D0%B6%D0%BA%D1%83-Windows-XP-%D0%B8-Vista/ta-p/31718,,,,37
+* 15\. Oops forgot to remove  all references to unicode in support.mozilla.org (swithched to gnu grep aka ggrep because perl regular expressions are easier to grok)!
+```sh
+ggrep -Pv ",,[a-z\:\/\.]*support\.mozilla\.org[A-Z0-9a-z_=\/\&\?\-\%\.]*,,,," \
+addthisedge.com-removed-mozilla.prod-csp-sanitized-report.csv > \
+unicodesupport.mozilla.org-removed-mozilla.prod-csp-sanitized-report.csv
+```
+* 16\. This (unicodesupport.mozilla.org) removes 100 lines from addthisedge.com-removed-mozilla.prod-csp-sanitized-report.csv
