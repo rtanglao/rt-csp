@@ -91,6 +91,6 @@ vpaid.js-removed-mozilla.prod-csp-sanitized-report.csv >
 grep -v stickyads \
 really-really-addthis.com-removed-mozilla.prod-csp-sanitized-report.csv >\
 stickyadstv.com-removed-mozilla.prod-csp-sanitized-report.csv
-```sh
+```
 * 34\. This (stickyads) removes about 9 lines!
 
