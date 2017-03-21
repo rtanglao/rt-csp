@@ -77,4 +77,6 @@ reallyaddthisedge.com-removed-mozilla.prod-csp-sanitized-report.csv >\
 vpaid.js-removed-mozilla.prod-csp-sanitized-report.csv
 ```
 * 28\. This (remove vpaid.js) removes about 150 lines
+* 29.\ First line of vpaid.js-removed-mozilla.prod-csp-sanitized-report.csv: about:blank,font-src,data,https://s7.addthis.com,2,3550,5
+
 
