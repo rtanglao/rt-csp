@@ -12,3 +12,4 @@ working on [case 00134461](https://supportcases.lithium.com/50061000009MCTs) whi
 grep -v "[0-9a-z]*.addthis.com[0-9a-z]*,,,," mozilla.prod-csp-sanitized-report.csv \
 > addthis.com-removed-mozilla.prod-csp-sanitized-report.csv
 ```
+* 4\. This removes 1100 lines from mozilla.prod-csp-sanitized-report.csv
