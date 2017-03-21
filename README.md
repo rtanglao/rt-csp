@@ -24,7 +24,7 @@ support.mozilla.org-removed-mozilla.prod-csp-sanitized-report.csv
 * 8\. First line of [support.mozilla.org-removed-mozilla.prod-csp-sanitized-report.csv](https://github.com/rtanglao/rt-csp/blob/master/support.mozilla.org-removed-mozilla.prod-csp-sanitized-report.csv): https://support.mozilla.org/t5/Basic-Browsing/Get-started-with-Firefox-An-overview-of-the-main-features/ta-p/3994,,https://www.youtube.com,,,,420
 * 9.\. Therefore remove all references to youtube.com because of course we need them!
 ```sh
-grep -v "[0-9a-z\/:]*.youtube.com[-A-Z0-9a-z\/]*,,,," \
+grep -v "[0-9a-z\/:]*.youtube.com[-A-Z0-9a-z_=\/\&\?]*,,,," \
 support.mozilla.org-removed-mozilla.prod-csp-sanitized-report.csv > \
 youtube.com-removed-mozilla.prod-csp-sanitized-report.csv
 ```
