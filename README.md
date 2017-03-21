@@ -14,10 +14,17 @@ grep -v "[0-9a-z]*.addthis.com[0-9a-z]*,,,," mozilla.prod-csp-sanitized-report.c
 ```
 * 4\. This (addthis.com) removes 1100 lines from mozilla.prod-csp-sanitized-report.csv
 * 5\. First line of [addthis.com-removed-mozilla.prod-csp-sanitized-report.csv](https://github.com/rtanglao/rt-csp/blob/master/addthis.com-removed-mozilla.prod-csp-sanitized-report.csv): https://support.mozilla.org/t5/Mozilla-Support-English/ct-p/Mozilla-EN,,https://support.mozilla.org/t5/Mozilla-Support-English/ct-p/Mozilla-EN,,,,548
-* 6\. Remove all references to support.mozilla.org becaue of course we need them!
+* 6\. Therefore remove all references to support.mozilla.org because of course we need them!
 ```sh
 grep -v "[0-9a-z\/:]*.support.mozilla.org[-A-Z0-9a-z\/]*,,,," \
 addthis.com-removed-mozilla.prod-csp-sanitized-report.csv > \
 support.mozilla.org-removed-mozilla.prod-csp-sanitized-report.csv
 ```
 * 7\. This (support.mozilla.org) removes 200 lines from mozilla.prod-csp-sanitized-report.csv
+* 8\. First line of [support.mozilla.org-removed-mozilla.prod-csp-sanitized-report.csv](https://github.com/rtanglao/rt-csp/blob/master/support.mozilla.org-removed-mozilla.prod-csp-sanitized-report.csv): https://support.mozilla.org/t5/Basic-Browsing/Get-started-with-Firefox-An-overview-of-the-main-features/ta-p/3994,,https://www.youtube.com,,,,420
+* 9.\. Therefore remove all references to youtube.com because of course we need them!
+```sh
+grep -v "[0-9a-z\/:]*.youtube.com[-A-Z0-9a-z\/]*,,,," \
+support.mozilla.org-removed-mozilla.prod-csp-sanitized-report.csv > \
+youtube.com-removed-mozilla.prod-csp-sanitized-report.csv
+```
