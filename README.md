@@ -9,6 +9,6 @@ working on [case 00134461](https://supportcases.lithium.com/50061000009MCTs) whi
 ```</script><script type="text/javascript" src="https://hwsfp35778.i.lithium.com/t5/scripts/636759EE6BB9D6E9B2C77AFF9A2C8CA1/lia-scripts-common-min.js"></script><script type="text/javascript" src="https://s7.addthis.com/js/300/addthis_widget.js"></script><script type="text/javascript" src="https://hwsfp35778.i.lithium.com/t5/scripts/0D78F3D7C0EE86C6FC90FB96880A3D73/lia-scripts-body-min.js"></script><script language="javascript" type="text/javascript">```
 * 3\. So I will remove all lines with references to "*addthis.com*,,,," because that is not mozilla's problem :-) this is needed by lithium's share feature
 ```sh
-grep -v mozilla.prod-csp-sanitized-report.csv "addthis.com,,,," \
+grep -v "[0-9a-z]*.addthis.com[0-9a-z]*,,,," mozilla.prod-csp-sanitized-report.csv \
 > addthis.com-removed-mozilla.prod-csp-sanitized-report.csv
 ```
