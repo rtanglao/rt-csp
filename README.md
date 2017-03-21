@@ -53,3 +53,4 @@ unicodesupport.mozilla.org-removed-mozilla.prod-csp-sanitized-report.csv > \
 reallyaddthis.com-removed-mozilla.prod-csp-sanitized-report.csv
 ```
 * 19\. This (reallyaddthis.com.removed) removes another 300 lines from unicodesupport.mozilla.org-removed-mozilla.prod-csp-sanitized-report.csv
+* 20\. First line of [reallyaddthis.com-removed-mozilla.prod-csp-sanitized-report.csv-mozilla.prod-csp-sanitized-report.csv](https://github.com/rtanglao/rt-csp/blob/master/reallyaddthis.com-removed-mozilla.prod-csp-sanitized-report.csv): https://support.mozilla.org/t5/Mozilla-Support-English/ct-p/Mozilla-EN,,https://ff-input.mxpnl.net,,,,9
