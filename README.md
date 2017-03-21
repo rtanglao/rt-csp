@@ -78,5 +78,9 @@ vpaid.js-removed-mozilla.prod-csp-sanitized-report.csv
 ```
 * 28\. This (remove vpaid.js) removes about 150 lines
 * 29.\ First line of vpaid.js-removed-mozilla.prod-csp-sanitized-report.csv: about:blank,font-src,data,https://s7.addthis.com,2,3550,5
-
-
+* 30.\ Remove more references to addthis
+```sh
+grep addthis -v \
+vpaid.js-removed-mozilla.prod-csp-sanitized-report.csv > 
+\really-really-addthis.com-removed-mozilla.prod-csp-sanitized-report.csv
+```
