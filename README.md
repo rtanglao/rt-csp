@@ -86,3 +86,11 @@ vpaid.js-removed-mozilla.prod-csp-sanitized-report.csv >
 ```
 * 31\. This (really really remove addthis.com) removes about 400 lines!
 * 32\. First line of really-really-addthis.com-removed-mozilla.prod-csp-sanitized-report.csv: https://support.mozilla.org/t5/Conserte-os-problemas/O-que-significa-quot-Sua-conex%C3%A3o-n%C3%A3o-%C3%A9-segura-quot/ta-p/32223,,https://ads.stickyadstv.com,,,,5
+* 33\. stickyadstv.com appears to be a streaming ad solution that  has been renamed to freewheel. Remove!
+```sh
+grep -v stickyads \
+really-really-addthis.com-removed-mozilla.prod-csp-sanitized-report.csv >\
+stickyadstv.com-removed-mozilla.prod-csp-sanitized-report.csv
+```sh
+* 34\. This (stickyads) removes about 9 lines!
+
