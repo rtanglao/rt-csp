@@ -109,7 +109,9 @@ stickyadstv.com-removed-mozilla.prod-csp-sanitized-report.csv
     * https://www.google-analytics.com
     * https://code.jquery.com
     * support.cdn.mozilla.net
-    
+    * support.mozilla.org/legacy
+    * translate.google.com
+    * s3.amazonaws.com
   * Potentially bad
     * streamrail.com (ad network)
     * mxpnl.net (analyics)
@@ -164,8 +166,37 @@ stickyadstv.com-removed-mozilla.prod-csp-sanitized-report.csv
     * jsl.infostatsvc.com
     * s.igmhb.com
     * https://system.donation-tools.org
-
+    * cdnins.123rede.com
+    * stags.bluekai.com
+    * i_tonginjs_info.tlscdn.com
+    * pixel.yabidos.com
+    * pstatic.davebestdeals.com
+    * https://qnp.demisedcolonnaded.com
+    * rules.similardeals.net
+    * data1.recettes.net
+    * foxi69.tlscdn.com
+    * istatic.eshopcomp.com
+    * findizer.fr
+    * data1.iti-maps.fr
+    * tags.clickintext.net
+    * app.davebestdeals.com
+    * 1087072589.rsc.cdn77.org
+    * qdatasales.com
+    * ezb.elvenmachine.com
+    * cdn-01.yumenetworks.com
+    * ads.contextweb.com
+    * fqtag.com
+    * platform.epiphanyai.com
+    * vast.bp3872166.btrll.com
+    * app.bestpriceninja.com
+    * data1.calcolo-bmi.com
+    * fp1f171.digitaloptout.com
+    * sgnr.bestpriceninja.com
+    * nps.noproblemppc.com
+    * pl.adsloads.com
+    * pstatic.bestpriceninja.com
+    * px.media-serving.com
+    * sovetnik.market.yandex.ru
+    * nps.noproblemppc.com
+    * https://data1.yummmi.es
     
-    
-    
-     
