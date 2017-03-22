@@ -126,5 +126,12 @@ stickyadstv.com-removed-mozilla.prod-csp-sanitized-report.csv
     * https://x.rafomedia.com (ad network)
     * http://vid-io.springserve.com, (ad network)
     * https://ads.adaptv.advertising.com (ad network)
+    * apiboxrockinfo-a.akamaihd.net
+    * https://apienhancetronic-a.akamaihd.net
+    * https://asrvvv-a.akamaihd.net
+    * https://cleanbrowser-a.akamaihd.net
+    * https://intext-a.akamaihd.net
+    * https://savingsslider-a.akamaihd.net
+    
     
      
