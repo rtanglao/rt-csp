@@ -104,6 +104,12 @@ stickyadstv.com-removed-mozilla.prod-csp-sanitized-report.csv
     * youtube.com
     * lithium.com
     * support.mozilla.org
+    * google.com
+    * hwsfp35778.i.lithium.com
+    * https://www.google-analytics.com
+    * https://code.jquery.com
+    * support.cdn.mozilla.net
+    
   * Potentially bad
     * streamrail.com (ad network)
     * mxpnl.net (analyics)
@@ -132,6 +138,34 @@ stickyadstv.com-removed-mozilla.prod-csp-sanitized-report.csv
     * https://cleanbrowser-a.akamaihd.net
     * https://intext-a.akamaihd.net
     * https://savingsslider-a.akamaihd.net
+    * data1.allo-pages.fr
+    * data1.bilan-imc.fr
+    * https://fdz.octapi.net
+    * hm.baidu.com
+    * mc.yandex.com
+    * search-goo.com
+    * pstatic.bestpriceninja.com
+    * https://data1.imc-calcular.com
+    * https://cdn.optimatic.com
+    * https://cdn.hiberniacdn.com
+    * lb.apicit.net
+    * http://tags.clickintext.net
+    * net.ootil.fr
+    * cdn.visadd.com
+    * cjs.linkbolic.com
+    * d2a8a4q9.ssl.hwcdn.net
+    * mstat.acestream.net
+    * eluxer.net
+    * ext.kinoroombrowser.ru
+    * www.adstomat.ru
+    * tc.koushuidang.cn
+    * rdc.apicit.net
+    * https://www.findizer.fr
+    * jsl.infostatsvc.com
+    * s.igmhb.com
+    * https://system.donation-tools.org
+
+    
     
     
      
