@@ -31,10 +31,10 @@ tr -d '\r' < mozilla.prod-csp-sanitized-report.csv \
 ./print-domain.rb  unix-line-endings-mozilla.prod-csp-sanitized-report.csv \
 2>stderr-mozilla-domains.txt >stdout-mozilla-domains.txt
 ```
-* 8.\get the unique domains
+* 8\.get the unique domains
 ```sh
-./print-domain.rb  unix-line-endings-mozilla.prod-csp-sanitized-report.csv \
-2>stderr-mozilla-domains.txt >stdout-mozilla-domains.txt
+cat stdout-mozilla-domains.txt | sort | \
+uniq > unique-mozilla-domains.txt
 ```
 ## 20March2017
 working on [case 00134461](https://supportcases.lithium.com/50061000009MCTs) which is referenced in 
