@@ -23,9 +23,15 @@ domain.domain
 ```
 * 6\. get rid of the DOS line endings
 ```sh
-tr -d '\r' < mozilla.prod-csp-sanitized-report.csv > unix-line-endings-mozilla.prod-csp-sanitized-report.csv
+tr -d '\r' < mozilla.prod-csp-sanitized-report.csv \
+> unix-line-endings-mozilla.prod-csp-sanitized-report.csv
 ```
 * 7\. get all the domains
+```sh
+./print-domain.rb  unix-line-endings-mozilla.prod-csp-sanitized-report.csv \
+2>stderr-mozilla-domains.txt >stdout-mozilla-domains.txt
+```
+* 8.\get the unique domains
 ```sh
 ./print-domain.rb  unix-line-endings-mozilla.prod-csp-sanitized-report.csv \
 2>stderr-mozilla-domains.txt >stdout-mozilla-domains.txt
