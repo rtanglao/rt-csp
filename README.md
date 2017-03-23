@@ -21,7 +21,15 @@ irb(main):006:0> domain = PublicSuffix.parse(uri.host)
 domain.domain
 => "mozilla.org"
 ```
-* 6\. ```tr -d '\r' < mozilla.prod-csp-sanitized-report.csv > unix-line-endings-mozilla.prod-csp-sanitized-report.csv```
+* 6\. get rid of the DOS line endings
+```sh
+tr -d '\r' < mozilla.prod-csp-sanitized-report.csv > unix-line-endings-mozilla.prod-csp-sanitized-report.csv
+```
+* 7\. get all the domains
+```sh
+./print-domain.rb  unix-line-endings-mozilla.prod-csp-sanitized-report.csv \
+2>stderr-mozilla-domains.txt >stdout-mozilla-domains.txt
+```
 ## 20March2017
 working on [case 00134461](https://supportcases.lithium.com/50061000009MCTs) which is referenced in 
 [CSP bug 1339940](https://bugzilla.mozilla.org/show_bug.cgi?id=1339940) as well as 
