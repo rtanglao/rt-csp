@@ -1,10 +1,10 @@
 # rt-csp
 roland's fun CSP for lithium repo
 ## 22March2017
-* A better approach is to parse the CSV file into an array
-* foreach 2nd element of the array, find the domain and the print to stdout
-* then pipe to ```uniq```
-* sketch to get URI
+* 1\. A better approach is to parse the CSV file into an array
+* 2\. foreach 2nd element of the array, find the domain and the print to stdout
+* 3\.then pipe to ```uniq```
+* 4\.sketch to get URI
 ```ruby
 require 'rubygems'
 require 'ccsv'
@@ -13,7 +13,7 @@ Ccsv.foreach(file) do |values|
   puts values[2] # values[2] to get the URI
 end
 ```
-* sketch to get domain from URI
+* 5\.sketch to get domain from URI
 ```ruby
 uri = URI.parse("https://support.mozilla.org/t5/user/viewprofilepage/user-id/873432")
 => #<URI::HTTPS https://support.mozilla.org/t5/user/viewprofilepage/user-id/873432>
