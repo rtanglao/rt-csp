@@ -31,12 +31,12 @@ tr -d '\r' < mozilla.prod-csp-sanitized-report.csv \
 ./print-domain.rb  unix-line-endings-mozilla.prod-csp-sanitized-report.csv \
 2>stderr-mozilla-domains.txt >stdout-mozilla-domains.txt
 ```
-* 8\.get the unique domains
+* 8\. get the unique domains
 ```sh
 cat stdout-mozilla-domains.txt | sort | \
 uniq > unique-mozilla-domains.txt
 ```
-* 9\.get non HTTP and non HTTPS field2
+* 9\. get non HTTP and non HTTPS field2
 ```sh
 grep FIELD3 stderr-mozilla-domains.txt |sort | \
 uniq > stderr-non-http-non-https-field2.txt
@@ -46,6 +46,11 @@ uniq > stderr-non-http-non-https-field2.txt
 rtanglao13483:rt-csp rtanglao$ grep URI stderr-mozilla-domains.txt 
 PublicSuffix::DomainNotAllowed^^^ URI:s3.amazonaws.com
 PublicSuffix::DomainNotAllowed^^^ URI:s3.amazonaws.com
+```
+* 11\. now make a file with all the domains, start with unique-mozilla-domains.txt and manually add http://s3.amazonaws.com and stderr-non-http-non-https-field2.txt
+```sh
+cat unique-mozilla-domains.txt stderr-non-http-non-https-field2.txt > mozilla-good-bad-domains.md
+echo "http://s3.amazonaws.com" >> mozilla-good-bad-domains.md
 ```
 ## 20March2017
 working on [case 00134461](https://supportcases.lithium.com/50061000009MCTs) which is referenced in 
