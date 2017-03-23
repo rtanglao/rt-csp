@@ -1,5 +1,9 @@
 # rt-csp
 roland's fun CSP for lithium repo
+## 22March2017
+* A better approach is to parse the CSV file into an array
+* foreach 2nd element of the array, find the domain and the print to stdout
+* then pipe to ```uniq```
 ## 20March2017
 working on [case 00134461](https://supportcases.lithium.com/50061000009MCTs) which is referenced in 
 [CSP bug 1339940](https://bugzilla.mozilla.org/show_bug.cgi?id=1339940) as well as 
