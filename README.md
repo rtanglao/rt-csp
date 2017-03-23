@@ -41,6 +41,12 @@ uniq > unique-mozilla-domains.txt
 grep FIELD3 stderr-mozilla-domains.txt |sort | \
 uniq > stderr-non-http-non-https-field2.txt
 ```
+* 10\. get Public Suffix bad domains (not sure why Public Suffix isn't happy with ```http://s3.amazonaws.com``` perhaps because it should be ```https://s3.amazonaws.com``` ?!?!)
+```sh
+rtanglao13483:rt-csp rtanglao$ grep URI stderr-mozilla-domains.txt 
+PublicSuffix::DomainNotAllowed^^^ URI:s3.amazonaws.com
+PublicSuffix::DomainNotAllowed^^^ URI:s3.amazonaws.com
+```
 ## 20March2017
 working on [case 00134461](https://supportcases.lithium.com/50061000009MCTs) which is referenced in 
 [CSP bug 1339940](https://bugzilla.mozilla.org/show_bug.cgi?id=1339940) as well as 
