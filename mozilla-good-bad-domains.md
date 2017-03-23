@@ -1,111 +1,120 @@
-1087072589.rsc.cdn77.org
-123rede.com
-1rx.io
-acestream.net
-adap.tv
-addthis.com
-addthiscdn.com
-addthisedge.com
-adnotbad.com
-adsloads.com
-adsrvr.org
-adstomat.ru
-advertising.com
-ajax.googleapis.com
-akamaihd.net
-allo-pages.fr
-altitude-arena.com
-altitudeplatform.com
-angsrvr.com
-apicit.net
-awaybird.ru
-baidu.com
-bestpriceninja.com
-bfmio.com
-bilan-imc.fr
-bluekai.com
-btrll.com
-calcolo-bmi.com
-casalemedia.com
-cdncash.net
-cdncash.org
-clickintext.net
-cloudflare.com
-cmptch.com
-connectionstrenth.com
-contextweb.com
-d1ytf8d9p4nfnz.cloudfront.net
-d2p5uuu8vyzvbv.cloudfront.net
-d2xvc2nqkduarq.cloudfront.net
-davebestdeals.com
-de17a.com
-demisedcolonnaded.com
-digitaloptout.com
-donation-tools.org
-eluxer.net
-epiphanyai.com
-eshopcomp.com
-findizer.fr
-fonts.googleapis.com
-fqtag.com
-google-analytics.com
-google.com
-gstatic.com
-hwcdn.net
-igmhb.com
-imc-calcular.com
-infostatsvc.com
-iti-maps.fr
-itineraire.info
-jquery.com
-kinoroombrowser.ru
-koushuidang.cn
-krxd.net
-linkbolic.com
-lkqd.net
-lm15d.com
-media-serving.com
-mega-tags.com
-mozilla.net
-mozilla.org
-mxpnl.net
-noproblemppc.com
-octapi.net
-ootil.fr
-optimatic.com
-partner-key.men
-q1media.com
-qdatasales.com
-rafomedia.com
-recettes.net
-rllcll.com
-search-goo.com
-sekindo.com
-similardeals.net
-springserve.com
-stickyadstv.com
-streamrail.com
-streamrail.net
-takethatad.com
-tlscdn.com
-translate.googleapis.com
-urlvalidation.com
-vertamedia.com
-visadd.com
-yabidos.com
-yandex.ru
-yashi.com
-youtube.com
-yumenetworks.com
-yummmi.es
-zscaler.net
-SKIPPING non HTTP and non HTTP FIELD2:"https://jsl.infostatsvc.com/?InitSuccess_8=1164|; FIELD3:|in|
-SKIPPING non HTTP and non HTTP FIELD2:"https://jsl.infostatsvc.com/?PanelPageVisit_4=EnhanceTronic|; FIELD3:|0EB9941B-1AE5-4061-BF64-D1C653FD775D|
-SKIPPING non HTTP and non HTTP FIELD2:"https://pre.glotgrx.com/nflrc.gif?cb=1489748370161921&ver=1.2r14&qid=835373f5136373f5430353&p=lWUf3i4RUDWZ&s=&x=reviser_optomatic_vast&cid=504&od1=&od2=&adtg=&nci=&nai=&nsi=&co=0&cstm1=&cstm2=&cstm3=&rnd=6l9zwf4kuyys&tps=56&ver1=2.1.2&toJSON=undefined&1=809ae2c6a931f003b72dc0afea53b694&2=-3.0&3=900_1440_860_1440_24_24&5=%7B%220%22%3A%7B%220%22%3A%22Widevine%2520Content%2520Decryption%2520Module%2520-%2520%2520-%2520widevinecdmadapter.dll%2520-%2520Enables%2520Widevine%2520licenses%2520for%2520playback%2520of%2520HTML%2520audio%252Fvideo%2520content.%2520%28version%253A%25201.4.8.962%29fl_br%22%2C%221%22%3A%22Chrome%2520PDF%2520Viewer%2520-%2520%2520-%2520mhjfbmdgcfjbbpaeojofohoefgiehjai%2520-%2520fl_br%22%2C%222%22%3A%22Native%2520Client%2520-%2520%2520-%2520internal-nacl-plugin%2520-%2520fl_br%22%2C%223%22%3A%22Chrome%2520PDF%2520Viewer%2520-%2520%2520-%2520internal-pdf-viewer%2520-%2520Portable%2520Document%2520Formatfl_br%22%2C%22toJSON%22%3A%22undefinedError%22%7D%2C%22toJSON%22%3A%22undefinedError%22%7D&6=3&7={%22e%22:%2211%22; FIELD3:%22m%22:%221%22
-SKIPPING non HTTP and non HTTP FIELD2:"https://pre.glotgrx.com/nflrc.gif?cb=1489748388309851&ver=1.2r14&qid=835373f5136373f5430353&p=lWUf3i4RUDWZ&s=&x=reviser_optomatic_vast&cid=504&od1=&od2=&adtg=&nci=&nai=&nsi=&co=0&cstm1=&cstm2=&cstm3=&rnd=aq02f7ifoesi&tps=49&ver1=2.1.2&toJSON=undefined&1=4d3e2520dadb8ca1b58c3983b1a96257&2=-3.0&3=768_1366_728_1366_24_24&5=%7B%220%22%3A%7B%220%22%3A%22Widevine%2520Content%2520Decryption%2520Module%2520-%2520%2520-%2520widevinecdmadapter.dll%2520-%2520Enables%2520Widevine%2520licenses%2520for%2520playback%2520of%2520HTML%2520audio%252Fvideo%2520content.%2520%28version%253A%25201.4.8.962%29fl_br%22%2C%221%22%3A%22Chrome%2520PDF%2520Viewer%2520-%2520%2520-%2520mhjfbmdgcfjbbpaeojofohoefgiehjai%2520-%2520fl_br%22%2C%222%22%3A%22Native%2520Client%2520-%2520%2520-%2520internal-nacl-plugin%2520-%2520fl_br%22%2C%223%22%3A%22Chrome%2520PDF%2520Viewer%2520-%2520%2520-%2520internal-pdf-viewer%2520-%2520Portable%2520Document%2520Formatfl_br%22%2C%22toJSON%22%3A%22undefinedError%22%7D%2C%22toJSON%22%3A%22undefinedError%22%7D&6=3&7={%22e%22:%2211%22; FIELD3:%22m%22:%221%22
-SKIPPING non HTTP and non HTTP FIELD2:; FIELD3:https://hwsfp35778.i.lithium.com
-SKIPPING non HTTP and non HTTP FIELD2:data; FIELD3:
-SKIPPING non HTTP and non HTTP FIELD2:data; FIELD3:https://hwsfp35778.i.lithium.com/t5/scripts/089057E1A8AB91288F8CE8A8B8826EDD/lia-scripts-head-min.js
-SKIPPING non HTTP and non HTTP FIELD2:data; FIELD3:https://s7.addthis.com
-SKIPPING non HTTP and non HTTP FIELD2:webviewprogressproxy://; FIELD3:https://support.mozilla.org/t5/Learn-the-Basics-get-started/%E3%83%96%E3%83%83%E3%82%AF%E3%83%9E%E3%83%BC%E3%82%AF%E3%82%92%E4%BD%9C%E6%88%90%E3%81%97%E3%81%A6%E3%81%8A%E6%B0%97%E3%81%AB%E5%85%A5%E3%82%8A%E3%81%AE-Web-%E3%83%9A%E3%83%BC%E3%82%B8%E3%82%92%E4%BF%9D%E5%AD%98%E3%81%99%E3%82%8B/ta-p/5805
-http://s3.amazonaws.com
+# Probably Good
+1. http://s3.amazonaws.com
+1. https://hwsfp35778.i.lithium.com
+1. https://s7.addthis.com (lithium share button?)
+1. addthis.com
+1. addthisedge.com
+1. addthiscdn.com
+1. https://d2xvc2nqkduarq.cloudfront.net (amazon CDN)
+1. d1ytf8d9p4nfnz.cloudfront.net
+1. d2p5uuu8vyzvbv.cloudfront.net
+1. https://fonts.googleapis.com 
+1. ajax.googleapis.com
+1. translate.googleapis.com
+1. https://gateway.zscaler.net (cloud security?)
+1. https://cdncache-a.akamaihd.net (CDN?)
+1. akamaihd.net
+1. youtube.com
+1. lithium.com
+1. support.mozilla.org
+1. mozilla.net
+1. mozilla.org
+1. google.com
+1. gstatic.com
+1. https://www.google-analytics.com
+1. https://code.jquery.com
+1. support.cdn.mozilla.net
+1. support.mozilla.org/legacy
+1. translate.google.com
+
+
+
+# Probably Bad
+
+1. https://pre.glotgrx.com
+1. https://jsl.infostatsvc.com
+1. 1087072589.rsc.cdn77.org
+1. 123rede.com
+1. 1rx.io
+1. acestream.net
+1. adap.tv
+1. adnotbad.com
+1. adsloads.com
+1. adsrvr.org
+1. adstomat.ru
+1. advertising.com
+1. allo-pages.fr
+1. altitude-arena.com
+1. altitudeplatform.com
+1. angsrvr.com
+1. apicit.net
+1. awaybird.ru
+1. baidu.com
+1. bestpriceninja.com
+1. bfmio.com
+1. bilan-imc.fr
+1. bluekai.com
+1. btrll.com
+1. calcolo-bmi.com
+1. casalemedia.com
+1. cdncash.net
+1. cdncash.org
+1. clickintext.net
+1. cloudflare.com
+1. cmptch.com
+1. connectionstrenth.com
+1. contextweb.com
+1. davebestdeals.com
+1. de17a.com
+1. demisedcolonnaded.com
+1. digitaloptout.com
+1. donation-tools.org
+1. eluxer.net
+1. epiphanyai.com
+1. eshopcomp.com
+1. findizer.fr
+1. fqtag.com
+1. hwcdn.net
+1. igmhb.com
+1. imc-calcular.com
+1. infostatsvc.com
+1. iti-maps.fr
+1. itineraire.info
+1. kinoroombrowser.ru
+1. koushuidang.cn
+1. krxd.net
+1. linkbolic.com
+1. lkqd.net
+1. lm15d.com
+1. media-serving.com
+1. mega-tags.com
+1. mxpnl.net
+1. noproblemppc.com
+1. octapi.net
+1. ootil.fr
+1. optimatic.com
+1. partner-key.men
+1. q1media.com
+1. qdatasales.com
+1. rafomedia.com
+1. recettes.net
+1. rllcll.com
+1. search-goo.com
+1. sekindo.com
+1. similardeals.net
+1. springserve.com
+1. stickyadstv.com
+1. streamrail.com
+1. streamrail.net
+1. takethatad.com
+1. tlscdn.com
+1. urlvalidation.com
+1. vertamedia.com
+1. visadd.com
+1. yabidos.com
+1. yandex.ru
+1. yashi.com
+1. yumenetworks.com
+1. yummmi.es
+
+
