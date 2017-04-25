@@ -18,7 +18,7 @@ PublicSuffix::DomainNotAllowed^^^ URI:nikkomsgchannel
 PublicSuffix::DomainNotAllowed^^^ URI:s3.amazonaws.com
 PublicSuffix::DomainNotAllowed^^^ URI:s3.eu-central-1.amazonaws.com
 ```
-* 2\. copy the old good bad file and hand add using emacs ediff of ```14april2017-unique-mozilla-domains.txt``` versus ```unique-mozilla-domains.txt```
+* 2\. copy the old good bad file and hand edit ```14april2017-mozilla-good-bad-domains.md``` using emacs ediff of ```14april2017-unique-mozilla-domains.txt``` versus ```unique-mozilla-domains.txt```
 ```bash
 cp mozilla-good-bad-domains.md 14april2017-mozilla-good-bad-domains.md
 ```
