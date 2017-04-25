@@ -22,6 +22,7 @@ PublicSuffix::DomainNotAllowed^^^ URI:s3.eu-central-1.amazonaws.com
 ```bash
 cp mozilla-good-bad-domains.md 14april2017-mozilla-good-bad-domains.md
 ```
+* 3\. result is: [14april2017-mozilla-good-bad-domains.md](https://github.com/rtanglao/rt-csp/blob/master/14april2017-mozilla-good-bad-domains.md)
 ## 22March2017
 * 1\. A better approach is to parse the CSV file into an array
 * 2\. foreach 2nd element of the array, find the domain and the print to stdout
