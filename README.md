@@ -1,5 +1,23 @@
 # rt-csp
 roland's fun CSP for lithium repo
+## 24April2017 repeat test from 22March2017
+* 1\. repeat test from [22March2017](https://github.com/rtanglao/rt-csp#22march2017) using [Lithium's spreadsheet from 14April2017](https://github.com/rtanglao/rt-csp/blob/master/14april2017-mozilla.prod-csp-sanitized-report.csv) See steps #1-#6 in the bash commands below:
+```bash
+cp  ~/Downloads/14april2017-mozilla.prod-csp-sanitized-report.csv . # 1
+tr -d '\r' < 14april2017-mozilla.prod-csp-sanitized-report.csv \ # 2
+> unix-line-endings-14april2017-mozilla.prod-csp-sanitized-report.csv
+./print-domain.rb  unix-line-endings-14april2017-mozilla.prod-csp-sanitized-report.csv \ #3
+2>14april2017-stderr-mozilla-domains.txt >14april2017-stdout-mozilla-domains.txt
+cat 14april2017-stdout-mozilla-domains.txt | sort | \ #4
+uniq > 14april2017-unique-mozilla-domains.txt
+grep FIELD3 14april2017-stderr-mozilla-domains.txt | sort \ #5
+| uniq > 14april2017-stderr-non-http-non-https-field2.txt
+grep URI 14april2017-stderr-mozilla-domains.txt | sort | uniq #6
+/Users/rtanglao/.rbenv/versions/2.3.0/lib/ruby/2.3.0/uri/rfc3986_parser.rb:67:in `split': bad URI(is not URI?): http://support.mozilla.org/skins/2360640/fonts/bootstrap/glyphicons-halflings-regular%woff (URI::InvalidURIError)
+PublicSuffix::DomainNotAllowed^^^ URI:nikkomsgchannel
+PublicSuffix::DomainNotAllowed^^^ URI:s3.amazonaws.com
+PublicSuffix::DomainNotAllowed^^^ URI:s3.eu-central-1.amazonaws.com
+```
 ## 22March2017
 * 1\. A better approach is to parse the CSV file into an array
 * 2\. foreach 2nd element of the array, find the domain and the print to stdout
