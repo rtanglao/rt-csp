@@ -26,6 +26,7 @@
 1. support.cdn.mozilla.net
 1. support.mozilla.org/legacy
 1. translate.google.com
+1. yandex.ru
 
 
 
@@ -112,7 +113,6 @@
 1. vertamedia.com
 1. visadd.com
 1. yabidos.com
-1. yandex.ru
 1. yashi.com
 1. yumenetworks.com
 1. yummmi.es
